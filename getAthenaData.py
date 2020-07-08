@@ -16,9 +16,9 @@ chrome_options.add_argument("--window-size=%s" %WINDOW_SIZE)
 
 browser = webdriver.Chrome(executable_path=CHROME_DRIVER_PATH, chrome_options=chrome_options)
 browser.get(link)
-delay = 10
+delay = 20
 
-tb = browser.find_element_by_id("statisticsTable")
+tb = browser.find_element(By.ID, "statisticsTable")
 if tb is None:
     print("not existed")
 else:
