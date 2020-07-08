@@ -6,9 +6,7 @@ from selenium.webdriver.common.by import By
 
 link = "https://athena-dot-symphony-qa-performance.appspot.com/apdex/619d1af2-3413-4ee6-bc6f-9be5884ed7d0/index.html"
 
-
-#CHROME_DRIVER_PATH = "D:\chromedriver_win32\chromedriver.exe"
-CHROME_DRIVER_PATH = "usr/local/bin/chromedriver"
+CHROME_DRIVER_PATH = "/usr/local/bin/chromedriver"
 WINDOW_SIZE = "1920,1080"
 
 chrome_options = Options()
