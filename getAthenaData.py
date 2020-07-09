@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
-link = "10.128.0.2/athena-sym-qa-perf/stable/apdex/619d1af2-3413-4ee6-bc6f-9be5884ed7d0/index.html"
+link = "http://10.128.0.2/athena-sym-qa-perf/stable/apdex/619d1af2-3413-4ee6-bc6f-9be5884ed7d0/index.html"
 
 CHROME_DRIVER_PATH = "/usr/local/bin/chromedriver"
 WINDOW_SIZE = "1920,1080"
